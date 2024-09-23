@@ -13,19 +13,3 @@ export const DOM_CLASS = {
   EDIT_TASK_BUTTON: ".card-controller__edit-button",
   DELETE_TASK_BUTTON: ".card-controller__delete-button",
 };
-
-export const FLATPICKR_CONFIG = {
-  wrap: true,
-  enableTime: true,
-  altInput: true,
-  altFormat: "H:i M j, Y",
-  dateFormat: "Z",
-};
-
-export const TASK_PROPERTIES = {
-  ID: "ID",
-  NAME: "taskName",
-  DESCRIPTION: "taskDescription",
-  DUE_DATE: "dueDate",
-  PRIORITY: "taskPriority",
-};
